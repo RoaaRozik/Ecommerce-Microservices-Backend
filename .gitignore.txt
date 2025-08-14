@@ -1,0 +1,38 @@
+# ======================
+# Java / Spring Boot
+# ======================
+/target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
+
+# ======================
+# IDE files
+# ======================
+/.idea/
+*.ipr
+*.iws
+*.vscode/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Maven / Gradle
+# ======================
+/.mvn/
+.mvn/wrapper/maven-wrapper.jar
+/build/
+.gradle/
+
+# ======================
+# Environment / Secrets
+# ======================
+*.env
+application.properties
+application.yml
